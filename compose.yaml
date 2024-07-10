@@ -1,0 +1,9 @@
+services:
+  db:
+    container_name: postgis
+    image: postgis/postgis:16-3.4
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: kj2aBv6f33cZ
+    ports:
+    - 5432:5432
